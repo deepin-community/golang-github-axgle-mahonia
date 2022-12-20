@@ -1,0 +1,17 @@
+golang-github-axgle-mahonia (0.0~git20180208.3358181-2-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 24 Nov 2022 07:23:50 +0800
+
+golang-github-axgle-mahonia (0.0~git20180208.3358181-2) unstable; urgency=medium
+
+  * Source only upload for migration to testing.
+
+ -- Arun Kumar Pariyar <openarungeek@gmail.com>  Thu, 29 Oct 2020 18:37:50 +0545
+
+golang-github-axgle-mahonia (0.0~git20180208.3358181-1) unstable; urgency=medium
+
+  * Initial release (Closes: #971049)
+
+ -- Arun Kumar Pariyar <openarungeek@gmail.com>  Fri, 25 Sep 2020 18:36:03 +0545

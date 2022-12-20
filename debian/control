@@ -1,0 +1,33 @@
+Source: golang-github-axgle-mahonia
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Arun Kumar Pariyar <openarungeek@gmail.com>
+Section: devel
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-axgle-mahonia
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-axgle-mahonia.git
+Homepage: https://github.com/axgle/mahonia
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/axgle/mahonia
+
+Package: golang-github-axgle-mahonia-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: Character-set conversion library implemented in Go. (library)
+ Mahonia is a character-set conversion library implemented in Go.
+ All data is compiled into the executable; it doesn't need any external
+ data files.
+
+Package: mahonia
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Built-Using: ${misc:Built-Using}
+Description: Character-set conversion library implemented in Go. (program)
+ Mahonia is a character-set conversion library implemented in Go.
+ All data is compiled into the executable; it doesn't need any external
+ data files.
